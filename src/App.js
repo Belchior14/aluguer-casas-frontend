@@ -9,9 +9,9 @@ import './styles/App.css'; // Importa o ficheiro de estilos
 function App() {
   // Dados de exemplo (substitua com os seus dados reais)
   const accommodationData = {
-    name: "Refúgio da Aldeia",
-    tagline: "A sua casa longe de casa, com vista para a serra.",
-    description: "Desfrute de uma estadia tranquila no coração da natureza. O Refúgio da Aldeia combina o conforto moderno com o charme rústico. Perfeito para casais ou famílias pequenas.",
+    name: "Casa da Praia",
+    tagline: "A sua casa longe de casa, com vista para o mar.",
+    description: "Desfrute de uma estadia tranquila à beira-mar. A Casa da Praia combina o conforto moderno com o charme rústico. Perfeito para casais ou famílias pequenas.",
     amenities: ["Wi-Fi Gratuito", "Cozinha Equipada"],
     galleryImages: [
       { id: 1, src: 'https://res.cloudinary.com/dswjf3cpk/image/upload/v1765465864/Casa%20Tia%20Berta/sala_01_vrjcfx.jpg', alt: 'Sala de Estar' },
