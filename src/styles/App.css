@@ -13,7 +13,7 @@ html, body {
 
 /* Container Principal */
 .app-container {
-    max-width: 1200px;
+    max-width: auto;
     margin: 0 auto;
 }
 
@@ -82,6 +82,12 @@ html, body {
     background-repeat: no-repeat; /* Evita a repetição */
     color: white; /* Muda a cor do texto para branco para contraste */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Adiciona sombra ao texto para legibilidade */
+    max-width: 1200px ;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 /* Modificação para o conteúdo dentro do Hero (garante que fica centrado) */
