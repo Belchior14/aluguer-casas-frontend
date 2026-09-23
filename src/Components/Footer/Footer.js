@@ -3,7 +3,7 @@ import './Footer.css';
 
 export default function Footer() {
   return (
-    <footer className="site-footer" id='contact'>
+    <footer className="site-footer" id='contactos'>
       <div className="footer-content">
         
         {/* Identificação do Alojamento */}

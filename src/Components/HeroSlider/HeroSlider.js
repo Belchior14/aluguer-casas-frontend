@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import './HeroSlider.css'; // Importa o CSS puro
+import './HeroSlider.css';
+import { useTranslation } from 'react-i18next';
 
 const IMAGES = [
   {
@@ -22,6 +23,7 @@ const IMAGES = [
 
 export default function HeroSlider() {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const { t } = useTranslation();
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -46,20 +48,14 @@ export default function HeroSlider() {
       {/* Camada para escurecer a imagem de fundo */}
       <div className="hero-overlay" />
 
-      {/* Texto Principal ao Centro */}
+      {/* Texto Principal ao Centro Traduzido */}
       <div className="hero-content">
         <h1 className="hero-title">
-          A sua casa longe de casa,<br /> com vista para o mar.
+          {t('hero.titleLine1')}<br /> {t('hero.titleLine2')}
         </h1>
         <p className="hero-subtitle">
-          Acorde com o som das ondas e desfrute de momentos inesquecíveis.
+          {t('hero.subtitle')}
         </p>
-        {/*
-        <div className="hero-buttons">
-          <a href="#reservar" className="btn-primary">Ver Disponibilidade</a>
-          <a href="#galeria" className="btn-secondary">Explorar Fotos</a>
-        </div>
-        */}
       </div>
 
       {/* Pontos Indicadores no Canto Inferior */}

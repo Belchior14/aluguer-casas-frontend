@@ -5,6 +5,7 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter , Route , Routes } from 'react-router-dom';
 
 import App from './App';
+import './i18n'; // Adiciona esta linha no topo
 
 //test
 
