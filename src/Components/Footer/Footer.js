@@ -17,12 +17,12 @@ export default function Footer() {
           
           {/* E-mail */}
           <a 
-            href="mailto:belchior.fontao@gmail.com" 
+            href="mailto:ericeiracasadapraia@gmail.com" 
             className="contact-card"
             title="Enviar e-mail"
           >
             <span className="contact-icon">✉️</span>
-            <span>belchior.fontao@gmail.com</span>
+            <span>ericeiracasadapraia@gmail.com</span>
           </a>
 
           {/* Chamada Telefónica */}

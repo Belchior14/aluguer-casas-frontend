@@ -34,7 +34,7 @@ export default function HeroSlider() {
   }, []);
 
   return (
-    <div className="hero-container">
+    <div className="hero-container" id='home'>
       {/* 4 Imagens em Loop */}
       {IMAGES.map((img, index) => (
         <div

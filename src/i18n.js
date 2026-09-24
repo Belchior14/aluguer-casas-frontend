@@ -20,21 +20,21 @@ const resources = {
         intro: "Uma experiência confortável e tranquila no coração da Ericeira, perfeita para desfrutar do mar e do charme da vila.",
         terrace: {
           title: "Terraço na Cobertura & Vista Mar",
-          text: "O maior destaque da Casa da Praia é o impressionante terraço panorâmico. É o local perfeito para apanhar sol, tomar um café pela manhã ou contemplar o pôr-do-sol sobre o oceano.",
-          viewLabel: "Vista 360º:",
-          viewVal: "Panorama único sobre a vila e o mar.",
-          terrace2Label: "Segundo Terraço:",
+          text: "O maior destaque da Casa da Praia é o terraço panorâmico. É o local perfeito para apanhar sol, beber um café pela manhã ou contemplar o pôr-do-sol sobre o oceano.",
+          viewLabel: "Vista sobre o mar:",
+          viewVal: "Panorama único sobre a praia do Algodio.",
+          terrace2Label: "Primeiro terraço:",
           terrace2Val: "Equipado com churrasqueira para refeições ao ar livre.",
-          accessLabel: "Acesso:",
-          accessVal: "Situado num 1º andar (sem elevador)."
+          accessLabel: "Segundo terraço:",
+          accessVal: "Espreguiçadeiras para relaxar a ver o pôr-do-sol."
         },
         space: {
           title: "Espaço Aconchegante",
           text: "Um ambiente versátil e acolhedor, ideal para famílias, casais ou pequenos grupos de amigos relaxarem após um dia de praia ou surf.",
           room1Label: "Quarto Principal:",
-          room1Val: "Cama de casal e excelente iluminação natural.",
+          room1Val: "Cama de casal e vista mar.",
           room2Label: "Segundo Quarto:",
-          room2Val: "Duas camas individuais confortáveis.",
+          room2Val: "Duas camas individuais.",
           livingLabel: "Sala de Estar:",
           livingVal: "Sofá e televisão para relaxar."
         },
@@ -46,12 +46,12 @@ const resources = {
           machinesLabel: "Máquinas:",
           machinesVal: "Lava-loiça e máquina de lavar roupa.",
           breakfastLabel: "Pequeno-almoço:",
-          breakfastVal: "Máquina Dolce Gusto, chaleira e torradeira.",
+          breakfastVal: "Máquina Café Dolce Gusto, chaleira e torradeira.",
           extraLabel: "Extra:",
-          extraVal: "Casa de banho completa e Wi-Fi gratuito de alta velocidade."
+          extraVal: "Casa de banho completa e Wi-Fi gratuito."
         },
         location: {
-          title: "Localização Imbatível",
+          title: "Localização",
           text: "Situada no lado norte da vila, a casa permite aceder às praias e ao centro da Ericeira a pé em escassos minutos.",
           beach1: "Praia do Algodio",
           beach1Dist: "100m (1 min a pé)",
@@ -68,7 +68,7 @@ const resources = {
         status: "Excecional",
         count: "7 comentários",
         stayDate: "Estadia em",
-        cta: "Ver todas as avaliações e confirmar no Booking.com ↗",
+        cta: "Ver todas as avaliações ↗",
         items: {
           rev1: {
             date: "Agosto de 2026",
@@ -112,45 +112,45 @@ const resources = {
         intro: "A comfortable and peaceful experience in the heart of Ericeira, perfect for enjoying the sea and the charm of the village.",
         terrace: {
           title: "Rooftop Terrace & Ocean View",
-          text: "The main highlight of Casa da Praia is the stunning panoramic terrace. It is the perfect spot for sunbathing, morning coffee, or watching the sunset over the ocean.",
-          viewLabel: "360º View:",
-          viewVal: "Unique panorama over the village and the sea.",
-          terrace2Label: "Second Terrace:",
-          terrace2Val: "Equipped with a BBQ for outdoor meals.",
-          accessLabel: "Access:",
-          accessVal: "Located on the 1st floor (no elevator)."
+          text: "The main highlight of Casa da Praia is the panoramic terrace. It is the perfect spot for sunbathing, morning coffee, or watching the sunset over the ocean.",
+          viewLabel: "Sea view:",
+          viewVal: "Unique panorama over Algodio beach.",
+          terrace2Label: "First terrace:",
+          terrace2Val: "Equipped with a barbecue for outdoor dining.",
+          accessLabel: "Second terrace:",
+          accessVal: "Sun loungers to relax while watching the sunset."
         },
         space: {
           title: "Cozy Space",
           text: "A versatile and welcoming atmosphere, ideal for families, couples, or small groups of friends to relax after a day at the beach or surfing.",
           room1Label: "Main Bedroom:",
-          room1Val: "Double bed and great natural light.",
+          room1Val: "Double bed and ocean view.",
           room2Label: "Second Bedroom:",
-          room2Val: "Two comfortable single beds.",
+          room2Val: "Two single beds.",
           livingLabel: "Living Room:",
-          livingVal: "Sofa and TV to unwind."
+          livingVal: "Sofa and TV to relax."
         },
         kitchen: {
           title: "Equipped Kitchen & Amenities",
           text: "Everything you need to prepare breakfasts or full meals with total independence.",
-          equipLabel: "Appliances:",
+          equipLabel: "Equipment:",
           equipVal: "Oven, stove, microwave, and fridge/freezer.",
-          machinesLabel: "Laundry:",
+          machinesLabel: "Appliances:",
           machinesVal: "Dishwasher and washing machine.",
           breakfastLabel: "Breakfast:",
-          breakfastVal: "Dolce Gusto machine, kettle, and toaster.",
+          breakfastVal: "Dolce Gusto coffee machine, kettle, and toaster.",
           extraLabel: "Extra:",
-          extraVal: "Full bathroom and free high-speed Wi-Fi."
+          extraVal: "Full bathroom and free Wi-Fi."
         },
         location: {
-          title: "Unbeatable Location",
+          title: "Location",
           text: "Located on the north side of the village, the house allows you to reach the beaches and Ericeira center on foot in just a few minutes.",
           beach1: "Algodio Beach",
           beach1Dist: "100m (1 min walk)",
           beach2: "Pescadores Beach",
           beach2Dist: "250m (3 min walk)",
           center: "Village Center",
-          centerDist: "Short walk away",
+          centerDist: "A short walk away",
           parking: "Parking",
           parkingDist: "Parking lots 400m away"
         }
@@ -160,7 +160,7 @@ const resources = {
         status: "Exceptional",
         count: "7 reviews",
         stayDate: "Stayed in",
-        cta: "See all reviews and confirm on Booking.com ↗",
+        cta: "See all reviews ↗",
         items: {
           rev1: {
             date: "August 2026",
@@ -204,38 +204,38 @@ const resources = {
         intro: "Une expérience confortable et paisible au cœur d'Ericeira, parfaite pour profiter de la mer et du charme du village.",
         terrace: {
           title: "Terrasse sur le Toit & Vue Mer",
-          text: "Le point fort de la Casa da Praia est son impressionnante terrasse panoramique. C'est l'endroit idéal pour prendre le soleil, café du matin ou admirer le coucher de soleil.",
-          viewLabel: "Vue 360º:",
-          viewVal: "Panorama unique sur le village et la mer.",
-          terrace2Label: "Deuxième Terrasse:",
+          text: "Le point fort de la Casa da Praia est sa terrasse panoramique. C'est l'endroit idéal pour prendre le soleil, le café du matin ou contempler le coucher de soleil sur l'océan.",
+          viewLabel: "Vue sur la mer :",
+          viewVal: "Panorama unique sur la plage d'Algodio.",
+          terrace2Label: "Première terrasse :",
           terrace2Val: "Équipée d'un barbecue pour les repas en plein air.",
-          accessLabel: "Accès:",
-          accessVal: "Situé au 1er étage (sans ascenseur)."
+          accessLabel: "Deuxième terrasse :",
+          accessVal: "Chaises longues pour se détendre en regardant le coucher de soleil."
         },
         space: {
           title: "Espace Chaleureux",
-          text: "Un cadre accueillant et polyvalent, idéal pour les familles, couples ou petits groupes d'amis pour se détendre après la plage.",
-          room1Label: "Chambre Principale:",
-          room1Val: "Lit double et excellente lumière naturelle.",
-          room2Label: "Deuxième Chambre:",
-          room2Val: "Deux lits simples confortables.",
-          livingLabel: "Salon:",
+          text: "Un cadre accueillant et polyvalent, idéal pour les familles, couples ou petits groupes d'amis pour se détendre après une journée à la plage ou de surf.",
+          room1Label: "Chambre Principale :",
+          room1Val: "Lit double et vue sur la mer.",
+          room2Label: "Deuxième Chambre :",
+          room2Val: "Deux lits simples.",
+          livingLabel: "Salon :",
           livingVal: "Canapé et télévision pour se détendre."
         },
         kitchen: {
           title: "Cuisine Équipée & Équipements",
           text: "Tout ce dont vous avez besoin pour préparer petits-déjeuners ou repas complets en toute autonomie.",
-          equipLabel: "Équipements:",
+          equipLabel: "Équipements :",
           equipVal: "Four, cuisinière, micro-ondes et réfrigérateur/congélateur.",
-          machinesLabel: "Lavage:",
+          machinesLabel: "Appareils :",
           machinesVal: "Lave-vaisselle et lave-linge.",
-          breakfastLabel: "Petit-déjeuner:",
-          breakfastVal: "Machine Dolce Gusto, bouilloire et grille-pain.",
-          extraLabel: "En plus:",
-          extraVal: "Salle de bain complète et Wi-Fi haut débit gratuit."
+          breakfastLabel: "Petit-déjeuner :",
+          breakfastVal: "Machine à café Dolce Gusto, bouilloire et grille-pain.",
+          extraLabel: "En plus :",
+          extraVal: "Salle de bain complète et Wi-Fi gratuit."
         },
         location: {
-          title: "Emplacement Imbattable",
+          title: "Localisation",
           text: "Située du côté nord du village, la maison permet d'accéder aux plages et au centre d'Ericeira à pied en quelques minutes.",
           beach1: "Plage d'Algodio",
           beach1Dist: "100m (1 min à pied)",
@@ -249,10 +249,10 @@ const resources = {
       },
       reviews: {
         subtitle: "Commentaires vérifiés des clients",
-        status: "Fabuleux",
+        status: "Exceptionnel",
         count: "7 commentaires",
         stayDate: "Séjour en",
-        cta: "Voir tous les avis et réserver sur Booking.com ↗",
+        cta: "Voir tous les avis ↗",
         items: {
           rev1: {
             date: "Août 2026",

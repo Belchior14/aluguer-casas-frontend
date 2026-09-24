@@ -22,10 +22,26 @@ export default function Header() {
           Casa da Praia
         </a>
 
-        {/* Zona do Menu e Idiomas */}
+        {/* Zona de Ações (Menu + Idiomas) */}
         <div className="header-actions">
           
-          {/* Seletor de Idiomas Estilizado */}
+          {/* Navegação Principal (Vem primeiro no desktop) */}
+          <nav className={`nav-menu ${isMenuOpen ? 'active' : ''}`}>
+            <ul className="nav-list">
+              <li className="nav-item">
+                <a href="#galeria" className="nav-link" onClick={closeMenu}>
+                  {t('nav.photos')}
+                </a>
+              </li>
+              <li className="nav-item">
+                <a href="#contactos" className="nav-link" onClick={closeMenu}>
+                  {t('nav.contacts')}
+                </a>
+              </li>
+            </ul>
+          </nav>
+
+          {/* Seletor de Idiomas (Agora fica à DIREITA dos links) */}
           <div className="lang-selector">
             <button 
               className={`lang-btn ${i18n.language === 'pt' ? 'active' : ''}`} 
@@ -60,23 +76,10 @@ export default function Header() {
             <span className="hamburger-line"></span>
           </button>
 
-          {/* Navegação Principal */}
-          <nav className={`nav-menu ${isMenuOpen ? 'active' : ''}`}>
-            <ul className="nav-list">
-              <li className="nav-item">
-                <a href="#galeria" className="nav-link" onClick={closeMenu}>
-                  {t('nav.photos')}
-                </a>
-              </li>
-              <li className="nav-item">
-                <a href="#contactos" className="nav-link" onClick={closeMenu}>
-                  {t('nav.contacts')}
-                </a>
-              </li>
-            </ul>
-          </nav>
-
         </div>
+
+        {/* Overlay escuro de fundo no mobile */}
+        {isMenuOpen && <div className="nav-overlay" onClick={closeMenu}></div>}
 
       </div>
     </header>

@@ -18,7 +18,6 @@
 .v-strict-header {
   text-align: center;
   margin-bottom: 40px;
-  /* Animação para o cabeçalho */
   opacity: 0;
   transform: translateY(30px);
   transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), 
@@ -66,30 +65,28 @@
   overflow: hidden;
   border: 1px solid #e2e8f0;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
-  
-  /* Escondido e deslocado 40px para baixo inicialmente */
   opacity: 0;
   transform: translateY(40px);
-  
-  /* Transição suave para quando o elemento fica visível */
   transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), 
               transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
   will-change: opacity, transform;
 }
 
-/* --- CLASSE ATIVADA PELO JAVASCRIPT QUANDO ENTRA NO ECRÃ --- */
+/* --- CLASSE ATIVADA PELO JAVASCRIPT --- */
 .v-strict-card.is-visible,
 .v-strict-header.is-visible {
   opacity: 1;
   transform: translateY(0);
 }
 
-/* CONTAINER DA IMAGEM */
+/* CONTAINER DA IMAGEM E SLIDER */
 .v-strict-image-wrapper {
   width: 100%;
-  height: 260px;
+  height: 350px;
   position: relative;
   overflow: hidden;
+  background-color: #f1f5f9;
+  user-select: none;
 }
 
 .v-strict-image-wrapper img {
@@ -97,6 +94,93 @@
   height: 100%;
   object-fit: cover;
   display: block;
+  transition: opacity 0.3s ease;
+}
+
+/* ==========================================================================
+   ESTILOS DO CARROSSEL / SLIDER DE IMAGENS
+   ========================================================================== */
+
+/* Botões de Navegação (Setas) */
+.slider-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(15, 23, 42, 0.4);
+  color: #ffffff;
+  border: none;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  backdrop-filter: blur(4px);
+  transition: background 0.2s ease, opacity 0.2s ease, transform 0.2s ease;
+  z-index: 5;
+  opacity: 0.8;
+}
+
+.slider-container:hover .slider-btn {
+  opacity: 1;
+}
+
+.slider-btn:hover {
+  background: rgba(15, 23, 42, 0.8);
+  transform: translateY(-50%) scale(1.08);
+}
+
+.prev-btn {
+  left: 12px;
+}
+
+.next-btn {
+  right: 12px;
+}
+
+/* Contador de Fotos (Ex: 1 / 3) */
+.slider-counter {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: rgba(15, 23, 42, 0.6);
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 12px;
+  backdrop-filter: blur(4px);
+  z-index: 5;
+}
+
+/* Pontos Indicadores (Dots) */
+.slider-dots {
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 6px;
+  z-index: 5;
+}
+
+.slider-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  padding: 0;
+  transition: all 0.2s ease;
+}
+
+.slider-dot.active {
+  background-color: #ffffff;
+  width: 20px;
+  border-radius: 10px;
 }
 
 /* CONTEÚDO DE TEXTO */
@@ -192,9 +276,13 @@
     font-size: 1.8rem;
   }
   .v-strict-image-wrapper {
-    height: 200px;
+    height: 220px;
   }
   .v-strict-content {
     padding: 18px;
+  }
+  .slider-btn {
+    width: 32px;
+    height: 32px;
   }
 }

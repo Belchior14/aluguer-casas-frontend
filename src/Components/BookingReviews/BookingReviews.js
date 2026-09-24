@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import './BookingReviews.css';
 
 const REVIEWS_DATA = {
-  score: "9.6",
+  score: "9.7",
   totalReviews: 7,
   bookingUrl: "https://www.booking.com/hotel/pt/casa-da-praia-vista-mar.pt-pt.html?aid=1610685&label=ericeira-X9qmgBnN1gW5zZmt%2AzkT%2AgS379670866958%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-329262632386%3Alp9240745%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YcTrZg6rgS-QrwXL1eMo4Rw&sid=23292eba121386f61338d8f3408fb8a4&all_sr_blocks=1543828101_426800685_4_0_0&checkin=2027-01-26&checkout=2027-01-30&dest_id=-2164547&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&highlighted_blocks=1543828101_426800685_4_0_0&hpos=1&matching_block_id=1543828101_426800685_4_0_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=1543828101_426800685_4_0_0__48960&srepoch=1790187490&srpvid=635e80a011a70960&type=total&ucfs=1&",
   reviews: [
