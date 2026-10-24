@@ -9,28 +9,28 @@ const REVIEWS_DATA = {
   reviews: [
     {
       id: 1,
-      name: "João Silva",
-      country: "Portugal",
-      flag: "🇵🇹",
+      name: "Liesbeth",
+      country: "Países Baixos",
+      flag: "NL",
       score: "10",
-      date: { pt: "Agosto de 2026", en: "August 2026", fr: "Août 2026" },
+      date: { pt: "Março de 2026", en: "March 2026", fr: "Mars 2026" },
       comment: {
-        pt: "A Casa da Praia superou todas as nossas expectativas! A vista para o mar é incrível e o espaço estava impecavelmente limpo.",
-        en: "Casa da Praia exceeded all our expectations! The ocean view is incredible and the place was spotlessly clean.",
-        fr: "Casa da Praia a dépassé toutes nos attentes ! La vue sur la mer est incroyable et l'endroit était d'une propreté impeccable."
+        pt: "Excecional.",
+        en: "Exceptional.",
+        fr: "Exceptionnel."
       }
     },
     {
       id: 2,
-      name: "Sophie Dubois",
-      country: "França",
-      flag: "🇫🇷",
-      score: "9.5",
-      date: { pt: "Julho de 2026", en: "July 2026", fr: "Juillet 2026" },
+      name: "Claudia",
+      country: "Chile",
+      flag: "CL",
+      score: "10",
+      date: { pt: "Abril de 2026", en: "April 2026", fr: "Avril 2026" },
       comment: {
-        pt: "Localização perfeita, a poucos passos da praia. Casa muito bem equipada e anfitriões muito prestáveis.",
-        en: "Perfect location, just steps from the beach. Very well-equipped house and super helpful hosts.",
-        fr: "Emplacement parfait, à quelques pas de la plage. Maison très bien équipée et hôtes très serviables."
+        pt: "Foi uma excelente escolha.",
+        en: "It was an excellent choice.",
+        fr: "C'était un excellent choix."
       }
     },
     {
